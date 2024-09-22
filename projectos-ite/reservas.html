@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel & Risort</title>
+    <link rel="icon" href="./img/ícone.png">
+
+    <style>
+        #Pr {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    
+<table align="center" id="Pr" >
+ <!--header-->
+ <tr>
+    <td>
+        <img src="/img/Logotipo.jpg" alt="Logotipo">
+    </td>
+
+    <td align="right">
+        <a href="index.html">Home</a>
+        <a href="Endereço.html">Endereço</a>
+        <a  href="contatos.html">Contatos</a>
+    </td>
+        
+    <!--main-->
+   
+   <tr>
+    <td align="center" colspan="2"><h1> Hotel & Risort</h1></td>
+  
+   </tr>
+
+    <tr>
+        <td >
+           
+            <h1>Faça a sua Reserva</h1>
+            <p> <br>Garanta sua estadia no nosso hotel ou resort de luxo <br>
+                Escolha suas datas, tipo de acomodação e aproveite <br>nossa  experiência única.</p>
+
+            <br>
+            <h1>Selecione a data de chegada.</h1>
+            <label for="checkin">Data de Check-in:</label>
+                <input type="date" id="checkin" name="checkin">
+
+            <h1>Selecione a data de saída.</h1>
+            <label for="checkout">Data de Check-out:</label>
+            <input type="date" id="checkout" name="checkout">
+
+            <h1> Quantos adultos vão se hospedar?</h1>
+                 <label for="adultos">Adultos:</label>
+            <select id="adultos" name="adultos">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4+</option>
+             </select>
+
+            <h1>Quantas crianças (até 12 anos)?</h1>
+                <label for="criancas">Crianças (0-12 anos):</label>
+             <select id="criancas" name="criancas">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3+</option>
+            </select>
+        </td>
+            <!---->
+        <td>
+            <h1>Tipo de Acomodação:</h1>
+            <p>Quarto Standard, Quarto Deluxe, Suíte Master,br Bangalô (para resorts)</p>
+            
+            <h1>Descrição adicional:</h1>
+            <p>Nossos quartos são equipados com ar-condicionado, Wi-Fi, <br>TV e oferecem uma vista incrível da
+            cidade/praia/montanha.</p>
+
+            <label for="acomodacao">Tipo de Acomodação:</label>
+        <select id="acomodacao" name="acomodacao">
+            <option value="standard">Quarto Standard</option>
+            <option value="deluxe">Quarto Deluxe</option>
+            <option value="suite">Suíte Master</option>
+            <option value="bangalo">Bangalô (Resort)</option>
+        </select>
+
+        <h1>Método de Pagamento:</h1>
+        <strong>Cartão de Crédito:</strong>
+        <p>Preencha os dados do seu cartão para garantir a reserva.</p>
+        <label for="pagamento">Forma de Pagamento:</label>
+        <select id="pagamento" name="pagamento">
+            <option value="cartao">Cartão de Crédito</option>
+            <option value="paypal">PayPal</option>
+            <option value="transferencia">Transferência Bancária</option>
+        </select>
+
+            <h1>Para confirmar preciona o botão Enviar</h1>
+            <button type="submit"><a href="cofirmação de reserva">Corfimar Reserva</a></button>
+            <br>
+
+            <h1>Para Cancelar a reserva preciona o botão Cancelar</h1>
+            <button type="submit"><a href="Cancelar de reserva">Cancelar Reserva</a></button>
+            <br>                                                                    
+                
+        </td>
+
+    </tr>
+
+</tr>
+
+</table>
+
+</body>
+</html>
